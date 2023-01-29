@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CarTableViewCell" customModule="SAAP_MVVM_CORTIEL" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="535" height="122"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Car Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcl-aq-OZz">
+                    <rect key="frame" x="24" y="50.666666666666664" width="76" height="20.999999999999993"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Car Brand" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GhJ-Tm-TeW">
+                    <rect key="frame" x="24" y="25.666666666666671" width="65" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="dcl-aq-OZz" firstAttribute="top" secondItem="GhJ-Tm-TeW" secondAttribute="bottom" constant="8" id="4jd-dO-3EI"/>
+                <constraint firstItem="dcl-aq-OZz" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="24" id="OQm-bD-QEN"/>
+                <constraint firstItem="GhJ-Tm-TeW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="24" id="Q08-Pd-t9G"/>
+                <constraint firstItem="dcl-aq-OZz" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="SsX-Xn-Y8h"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="carBrandLabel" destination="GhJ-Tm-TeW" id="OAM-mM-jHZ"/>
+                <outlet property="carNameLabel" destination="dcl-aq-OZz" id="QOF-0R-eo5"/>
+            </connections>
+            <point key="canvasLocation" x="-1" y="-56"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

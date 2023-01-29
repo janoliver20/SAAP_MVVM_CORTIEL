@@ -7,16 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1FD7182916ABC7002AD1EE /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1FD7172916ABC7002AD1EE /* CarModel.swift */; };
+		1F1FD71B2916AC80002AD1EE /* CarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1FD71A2916AC7F002AD1EE /* CarService.swift */; };
+		1F1FD71D2916AC97002AD1EE /* CarServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1FD71C2916AC97002AD1EE /* CarServiceProtocol.swift */; };
+		1F2D7D652923B66900C4D6B0 /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2D7D642923B66900C4D6B0 /* CarViewModel.swift */; };
+		1F32791E29531E8800F388E8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32791D29531E8800F388E8 /* DetailViewController.swift */; };
+		1F32792029531ECB00F388E8 /* DetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F32791F29531ECB00F388E8 /* DetailViewController.storyboard */; };
+		1F32792429536FBE00F388E8 /* CarSortEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32792329536FBE00F388E8 /* CarSortEnum.swift */; };
+		1F32F8DD291693E700A51C14 /* CarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F32F8DC291693E700A51C14 /* CarTableViewCell.xib */; };
 		1F3B8C012915078A00C54D32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B8C002915078A00C54D32 /* AppDelegate.swift */; };
 		1F3B8C032915078A00C54D32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B8C022915078A00C54D32 /* SceneDelegate.swift */; };
 		1F3B8C052915078A00C54D32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B8C042915078A00C54D32 /* ViewController.swift */; };
-		1F3B8C082915078A00C54D32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3B8C062915078A00C54D32 /* Main.storyboard */; };
 		1F3B8C0B2915078A00C54D32 /* SAAP_MVVM_CORTIEL.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B8C092915078A00C54D32 /* SAAP_MVVM_CORTIEL.xcdatamodeld */; };
 		1F3B8C0D2915078D00C54D32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F3B8C0C2915078D00C54D32 /* Assets.xcassets */; };
 		1F3B8C102915078D00C54D32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3B8C0E2915078D00C54D32 /* LaunchScreen.storyboard */; };
 		1F3B8C1B2915078D00C54D32 /* SAAP_MVVM_CORTIELTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B8C1A2915078D00C54D32 /* SAAP_MVVM_CORTIELTests.swift */; };
 		1F3B8C252915078D00C54D32 /* SAAP_MVVM_CORTIELUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B8C242915078D00C54D32 /* SAAP_MVVM_CORTIELUITests.swift */; };
 		1F3B8C272915078D00C54D32 /* SAAP_MVVM_CORTIELUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B8C262915078D00C54D32 /* SAAP_MVVM_CORTIELUITestsLaunchTests.swift */; };
+		1F3B8C3C29150A6300C54D32 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B8C3B29150A6300C54D32 /* ListViewController.swift */; };
+		1F3B8C3E29150BCE00C54D32 /* ListView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3B8C3D29150BCE00C54D32 /* ListView.storyboard */; };
+		1F5D1A1E2915274800C66E0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F5D1A1C2915274800C66E0E /* Main.storyboard */; };
+		1FD352B629169779001F5B7B /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD352B529169779001F5B7B /* CarTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +48,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F1FD7172916ABC7002AD1EE /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
+		1F1FD71A2916AC7F002AD1EE /* CarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarService.swift; sourceTree = "<group>"; };
+		1F1FD71C2916AC97002AD1EE /* CarServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarServiceProtocol.swift; sourceTree = "<group>"; };
+		1F2D7D642923B66900C4D6B0 /* CarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewModel.swift; sourceTree = "<group>"; };
+		1F32791D29531E8800F388E8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1F32791F29531ECB00F388E8 /* DetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailViewController.storyboard; sourceTree = "<group>"; };
+		1F32792329536FBE00F388E8 /* CarSortEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSortEnum.swift; sourceTree = "<group>"; };
+		1F32F8DC291693E700A51C14 /* CarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarTableViewCell.xib; sourceTree = "<group>"; };
 		1F3B8BFD2915078A00C54D32 /* SAAP_MVVM_CORTIEL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAAP_MVVM_CORTIEL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F3B8C002915078A00C54D32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F3B8C022915078A00C54D32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1F3B8C042915078A00C54D32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1F3B8C072915078A00C54D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F3B8C0A2915078A00C54D32 /* SAAP_MVVM_CORTIEL.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SAAP_MVVM_CORTIEL.xcdatamodel; sourceTree = "<group>"; };
 		1F3B8C0C2915078D00C54D32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F3B8C0F2915078D00C54D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +69,10 @@
 		1F3B8C202915078D00C54D32 /* SAAP_MVVM_CORTIELUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAAP_MVVM_CORTIELUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F3B8C242915078D00C54D32 /* SAAP_MVVM_CORTIELUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAAP_MVVM_CORTIELUITests.swift; sourceTree = "<group>"; };
 		1F3B8C262915078D00C54D32 /* SAAP_MVVM_CORTIELUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAAP_MVVM_CORTIELUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1F3B8C3B29150A6300C54D32 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		1F3B8C3D29150BCE00C54D32 /* ListView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListView.storyboard; sourceTree = "<group>"; };
+		1F5D1A1D2915274800C66E0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FD352B529169779001F5B7B /* CarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +100,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F1FD7192916AC6A002AD1EE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1F1FD71A2916AC7F002AD1EE /* CarService.swift */,
+				1F1FD71C2916AC97002AD1EE /* CarServiceProtocol.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1F32791C29531E6800F388E8 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				1F32791D29531E8800F388E8 /* DetailViewController.swift */,
+				1F32791F29531ECB00F388E8 /* DetailViewController.storyboard */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		1F32F8D72916933F00A51C14 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1F32F8DC291693E700A51C14 /* CarTableViewCell.xib */,
+				1FD352B529169779001F5B7B /* CarTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		1F3B8BF42915078A00C54D32 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +150,14 @@
 		1F3B8BFF2915078A00C54D32 /* SAAP_MVVM_CORTIEL */ = {
 			isa = PBXGroup;
 			children = (
+				1F1FD7192916AC6A002AD1EE /* Services */,
+				1F3B8C372915099D00C54D32 /* ViewModels */,
+				1F3B8C362915099600C54D32 /* Models */,
+				1F3B8C332915086600C54D32 /* Views */,
 				1F3B8C002915078A00C54D32 /* AppDelegate.swift */,
 				1F3B8C022915078A00C54D32 /* SceneDelegate.swift */,
 				1F3B8C042915078A00C54D32 /* ViewController.swift */,
-				1F3B8C062915078A00C54D32 /* Main.storyboard */,
+				1F5D1A1C2915274800C66E0E /* Main.storyboard */,
 				1F3B8C0C2915078D00C54D32 /* Assets.xcassets */,
 				1F3B8C0E2915078D00C54D32 /* LaunchScreen.storyboard */,
 				1F3B8C112915078D00C54D32 /* Info.plist */,
@@ -128,6 +181,42 @@
 				1F3B8C262915078D00C54D32 /* SAAP_MVVM_CORTIELUITestsLaunchTests.swift */,
 			);
 			path = SAAP_MVVM_CORTIELUITests;
+			sourceTree = "<group>";
+		};
+		1F3B8C332915086600C54D32 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F32791C29531E6800F388E8 /* Detail */,
+				1F32F8D72916933F00A51C14 /* Cells */,
+				1F3B8C3829150A0E00C54D32 /* List */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F3B8C362915099600C54D32 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F1FD7172916ABC7002AD1EE /* CarModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F3B8C372915099D00C54D32 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1F2D7D642923B66900C4D6B0 /* CarViewModel.swift */,
+				1F32792329536FBE00F388E8 /* CarSortEnum.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1F3B8C3829150A0E00C54D32 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				1F3B8C3B29150A6300C54D32 /* ListViewController.swift */,
+				1F3B8C3D29150BCE00C54D32 /* ListView.storyboard */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +325,10 @@
 			files = (
 				1F3B8C102915078D00C54D32 /* LaunchScreen.storyboard in Resources */,
 				1F3B8C0D2915078D00C54D32 /* Assets.xcassets in Resources */,
-				1F3B8C082915078A00C54D32 /* Main.storyboard in Resources */,
+				1F32792029531ECB00F388E8 /* DetailViewController.storyboard in Resources */,
+				1F32F8DD291693E700A51C14 /* CarTableViewCell.xib in Resources */,
+				1F3B8C3E29150BCE00C54D32 /* ListView.storyboard in Resources */,
+				1F5D1A1E2915274800C66E0E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +353,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F1FD71D2916AC97002AD1EE /* CarServiceProtocol.swift in Sources */,
 				1F3B8C052915078A00C54D32 /* ViewController.swift in Sources */,
+				1F1FD7182916ABC7002AD1EE /* CarModel.swift in Sources */,
+				1F32791E29531E8800F388E8 /* DetailViewController.swift in Sources */,
+				1F1FD71B2916AC80002AD1EE /* CarService.swift in Sources */,
 				1F3B8C0B2915078A00C54D32 /* SAAP_MVVM_CORTIEL.xcdatamodeld in Sources */,
+				1F2D7D652923B66900C4D6B0 /* CarViewModel.swift in Sources */,
+				1FD352B629169779001F5B7B /* CarTableViewCell.swift in Sources */,
+				1F32792429536FBE00F388E8 /* CarSortEnum.swift in Sources */,
 				1F3B8C012915078A00C54D32 /* AppDelegate.swift in Sources */,
+				1F3B8C3C29150A6300C54D32 /* ListViewController.swift in Sources */,
 				1F3B8C032915078A00C54D32 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,20 +401,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1F3B8C062915078A00C54D32 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F3B8C072915078A00C54D32 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1F3B8C0E2915078D00C54D32 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1F3B8C0F2915078D00C54D32 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1F5D1A1C2915274800C66E0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F5D1A1D2915274800C66E0E /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -446,7 +546,7 @@
 				INFOPLIST_FILE = SAAP_MVVM_CORTIEL/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = ListView;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -474,7 +574,7 @@
 				INFOPLIST_FILE = SAAP_MVVM_CORTIEL/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = ListView;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
